@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist.css">
+  <title>Tailwind V2</title>
+</head>
+<body>
+  <div class="bg-teal-200 font-bold text-center p-10 text-white">
+    <p>Esta é uma nova cor</p>
+  </div>
+  <div class="bg-violet-500 font-bold text-center p-10 text-white">
+    <p>Esta é uma nova cor</p>
+  </div>
+  <div class="bg-trueGray-200 dark:bg-trueGray-800 dark:text-white font-bold text-center p-10 text-trueGray-700">
+    <p>Esta é uma nova cor</p>
+  </div>
+  <div class="bg-trueGray-200 dark:bg-trueGray-800 dark:text-white font-bold text-center p-10 text-trueGray-700">
+    <p>Esta é uma nova cor</p>
+  </div>
+
+  <div class="mt-4">
+    <button id="dark-mode" class="btn">on/off Dark Theme</button>
+  </div>
+  
+  <div class="m-4">
+    <button id="dark-mode-ring" class="ring-4 ring-teal-600 bg-teal-500 dark:bg-trueGray-700 text-white rounded-full py-3 px-8 text-xs hover:bg-teal-700 dark:hover:bg-trueGray-800 transition duration-300">on/off Dark Theme</button>
+    <button class="py-2 px-4 bg-rose-500 mx-4 text-white ring-4 ring-inset ring-rose-700 rounded-full">Ring Interno</button>
+    <button class="py-2 px-4 bg-blue-500 mx-4 text-white ring-4 ring-inset focus:ring-blue-700 rounded-full focus:outline">Ring Interno</button>
+  </div>
+  
+  <div class="m-6">
+    <form action="">
+      <div>
+        <input type="text" placeholder="Digite seu nome">
+        <input type="text" placeholder="Digite seu nome" class="border-0 border-b-2 border-trueGray-600">
+        <input type="text" placeholder="Digite seu nome" class="border-transparent bg-gray-200">
+      </div>
+      <select class="px-10 py-2 rounded">
+        <option value="">Opção 1</option>
+        <option value="">Opção 2</option>
+        <option value="">Opção 3</option>
+        <option value="">Opção 4</option>
+      </select>
+
+      <div class="m-4">
+        <input type="checkbox" name="" id="" class="border-gray-300 p-4 text-rose-500 mr-2 focus:ring-0 rounded-md">
+        <label for="">Checkbox</label>
+      </div>
+    </form>
+  </div>
+
+  <div class="m-4">
+    <h1 class="text-4xl">Line Height padrão</h1>
+    <h1 class="text-4xl">Line Height padrão</h1>
+    <h1 class="text-4xl leading-normal">Line Height padrão</h1>
+    <h1 class="text-4xl  leading-normal">Line Height padrão</h1>
+  </div>
+
+  <div class="m-0.5 opacity-95">
+    <p>Testando espaçamentos menores</p>
+  </div>
+
+  <p class="max-w-xs m-6 p-6 mx-auto bg-red-200 text-red-500 font-medium rounded-lg overflow-hidden overflow-ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt neque obcaecati molestiae quis ipsum quas eos ea, suscipit pariatur repellendus accusantiumasdasdasdasdasdasdsadsadsadasdasdadadsasdasdasd, magnam nobis vitae aperiam nam earum possimus culpa.</p>
+  <p class="max-w-xs m-6 p-6 mx-auto bg-green-200 text-green-500 font-medium rounded-lg overflow-hidden overflow-clip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt neque obcaecati molestiae quis ipsum quas eos ea, suscipit pariatur repellendus accusantiumasdasdasdasdasdasdsadsadsadasdasdadadsasdasdasd, magnam nobis vitae aperiam nam earum possimus culpa.</p>
+</body>
+
+<script src="script.js"></script>
+</html>

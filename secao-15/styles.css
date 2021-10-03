@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-violet-500 dark:bg-trueGray-700 text-white rounded-full py-3 px-8 text-xs hover:bg-violet-700 dark:hover:bg-trueGray-800 transition duration-300;
+}
